@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tungteen/code/UETFastest/include -I/home/tungteen/code/UETFastest/include/x86_64 -isystem /opt/ros/lunar/include/opencv-3.3.1-dev -isystem /opt/ros/lunar/include/opencv-3.3.1-dev/opencv 
+CXX_INCLUDES = -I/home/nvidia/UETFastest2019/include -I/home/nvidia/UETFastest2019/include/aarch64 -I/home/nvidia/UETFastest2019/include/aarch64/OpenNI-Linux-Arm64-2.3.0.55/Include -isystem /usr/include/opencv 
 

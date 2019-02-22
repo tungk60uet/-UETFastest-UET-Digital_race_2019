@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tungteen/code/UETFastest
+CMAKE_SOURCE_DIR = /home/nvidia/UETFastest2019
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tungteen/code/UETFastest/build
+CMAKE_BINARY_DIR = /home/nvidia/UETFastest2019/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cds2019.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cds2019.dir/flags.make
 
 CMakeFiles/cds2019.dir/src/main.cpp.o: CMakeFiles/cds2019.dir/flags.make
 CMakeFiles/cds2019.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tungteen/code/UETFastest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cds2019.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/main.cpp.o -c /home/tungteen/code/UETFastest/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cds2019.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/main.cpp.o -c /home/nvidia/UETFastest2019/src/main.cpp
 
 CMakeFiles/cds2019.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tungteen/code/UETFastest/src/main.cpp > CMakeFiles/cds2019.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/main.cpp > CMakeFiles/cds2019.dir/src/main.cpp.i
 
 CMakeFiles/cds2019.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tungteen/code/UETFastest/src/main.cpp -o CMakeFiles/cds2019.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/main.cpp -o CMakeFiles/cds2019.dir/src/main.cpp.s
 
 CMakeFiles/cds2019.dir/src/main.cpp.o.requires:
 
@@ -81,88 +81,190 @@ CMakeFiles/cds2019.dir/src/main.cpp.o.provides: CMakeFiles/cds2019.dir/src/main.
 CMakeFiles/cds2019.dir/src/main.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/main.cpp.o
 
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.o: CMakeFiles/cds2019.dir/flags.make
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.o: ../src/IOInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tungteen/code/UETFastest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cds2019.dir/src/IOInterface.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/IOInterface.cpp.o -c /home/tungteen/code/UETFastest/src/IOInterface.cpp
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o: ../src/aarch64/api_i2c_pwm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/api_i2c_pwm.cpp
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/IOInterface.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tungteen/code/UETFastest/src/IOInterface.cpp > CMakeFiles/cds2019.dir/src/IOInterface.cpp.i
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/api_i2c_pwm.cpp > CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.i
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/IOInterface.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tungteen/code/UETFastest/src/IOInterface.cpp -o CMakeFiles/cds2019.dir/src/IOInterface.cpp.s
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/api_i2c_pwm.cpp -o CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.s
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.requires:
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.requires:
 
-.PHONY : CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.requires
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.requires
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.provides: CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.provides.build
-.PHONY : CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.provides
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.provides
 
-CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/IOInterface.cpp.o
+CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o
+
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o: ../src/aarch64/IOInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/IOInterface.cpp
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/IOInterface.cpp > CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.i
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/IOInterface.cpp -o CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.s
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.requires:
+
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.requires
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.provides
+
+CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o
+
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o: ../src/aarch64/pca9685.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/pca9685.cpp
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/pca9685.cpp > CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.i
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/pca9685.cpp -o CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.s
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.requires:
+
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.requires
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.provides
+
+CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o
+
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o: ../src/aarch64/Hal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/Hal.cpp
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/Hal.cpp > CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.i
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/Hal.cpp -o CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.s
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.requires:
+
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.requires
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.provides
+
+CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o
+
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o: ../src/aarch64/OpenNIHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/OpenNIHelper.cpp
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/OpenNIHelper.cpp > CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.i
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/OpenNIHelper.cpp -o CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.s
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.requires:
+
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.requires
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.provides
+
+CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o
+
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o: CMakeFiles/cds2019.dir/flags.make
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o: ../src/aarch64/LCDI2C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o -c /home/nvidia/UETFastest2019/src/aarch64/LCDI2C.cpp
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvidia/UETFastest2019/src/aarch64/LCDI2C.cpp > CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.i
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvidia/UETFastest2019/src/aarch64/LCDI2C.cpp -o CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.s
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.requires:
+
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.requires
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.provides: CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.provides.build
+.PHONY : CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.provides
+
+CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.provides.build: CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o
 
 
 # Object files for target cds2019
 cds2019_OBJECTS = \
 "CMakeFiles/cds2019.dir/src/main.cpp.o" \
-"CMakeFiles/cds2019.dir/src/IOInterface.cpp.o"
+"CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o" \
+"CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o" \
+"CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o" \
+"CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o" \
+"CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o" \
+"CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o"
 
 # External object files for target cds2019
 cds2019_EXTERNAL_OBJECTS =
 
 cds2019: CMakeFiles/cds2019.dir/src/main.cpp.o
-cds2019: CMakeFiles/cds2019.dir/src/IOInterface.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o
+cds2019: CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o
 cds2019: CMakeFiles/cds2019.dir/build.make
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-cds2019: /opt/ros/lunar/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+cds2019: /usr/lib/libopencv_dnn.so.3.3.1
+cds2019: /usr/lib/libopencv_ml.so.3.3.1
+cds2019: /usr/lib/libopencv_objdetect.so.3.3.1
+cds2019: /usr/lib/libopencv_shape.so.3.3.1
+cds2019: /usr/lib/libopencv_stitching.so.3.3.1
+cds2019: /usr/lib/libopencv_superres.so.3.3.1
+cds2019: /usr/lib/libopencv_videostab.so.3.3.1
+cds2019: /usr/lib/libopencv_calib3d.so.3.3.1
+cds2019: /usr/lib/libopencv_features2d.so.3.3.1
+cds2019: /usr/lib/libopencv_flann.so.3.3.1
+cds2019: /usr/lib/libopencv_highgui.so.3.3.1
+cds2019: /usr/lib/libopencv_photo.so.3.3.1
+cds2019: /usr/lib/libopencv_video.so.3.3.1
+cds2019: /usr/lib/libopencv_videoio.so.3.3.1
+cds2019: /usr/lib/libopencv_imgcodecs.so.3.3.1
+cds2019: /usr/lib/libopencv_imgproc.so.3.3.1
+cds2019: /usr/lib/libopencv_core.so.3.3.1
 cds2019: CMakeFiles/cds2019.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tungteen/code/UETFastest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cds2019"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvidia/UETFastest2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cds2019"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cds2019.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,7 +273,12 @@ CMakeFiles/cds2019.dir/build: cds2019
 .PHONY : CMakeFiles/cds2019.dir/build
 
 CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/main.cpp.o.requires
-CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/IOInterface.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o.requires
+CMakeFiles/cds2019.dir/requires: CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o.requires
 
 .PHONY : CMakeFiles/cds2019.dir/requires
 
@@ -180,6 +287,6 @@ CMakeFiles/cds2019.dir/clean:
 .PHONY : CMakeFiles/cds2019.dir/clean
 
 CMakeFiles/cds2019.dir/depend:
-	cd /home/tungteen/code/UETFastest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tungteen/code/UETFastest /home/tungteen/code/UETFastest /home/tungteen/code/UETFastest/build /home/tungteen/code/UETFastest/build /home/tungteen/code/UETFastest/build/CMakeFiles/cds2019.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/UETFastest2019/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/UETFastest2019 /home/nvidia/UETFastest2019 /home/nvidia/UETFastest2019/build /home/nvidia/UETFastest2019/build /home/nvidia/UETFastest2019/build/CMakeFiles/cds2019.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cds2019.dir/depend
 

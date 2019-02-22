@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcds2019_LIBS.a  CMakeFiles/cds2019_LIBS.dir/src/IOInterface.cpp.o
-/usr/bin/ranlib libcds2019_LIBS.a

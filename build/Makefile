@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tungteen/code/UETFastest
+CMAKE_SOURCE_DIR = /home/nvidia/UETFastest2019
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tungteen/code/UETFastest/build
+CMAKE_BINARY_DIR = /home/nvidia/UETFastest2019/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungteen/code/UETFastest/build/CMakeFiles /home/tungteen/code/UETFastest/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nvidia/UETFastest2019/build/CMakeFiles /home/nvidia/UETFastest2019/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungteen/code/UETFastest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nvidia/UETFastest2019/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,167 @@ cds2019/fast:
 	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/build
 .PHONY : cds2019/fast
 
-src/IOInterface.o: src/IOInterface.cpp.o
+src/aarch64/Hal.o: src/aarch64/Hal.cpp.o
 
-.PHONY : src/IOInterface.o
+.PHONY : src/aarch64/Hal.o
 
 # target to build an object file
-src/IOInterface.cpp.o:
-	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/IOInterface.cpp.o
-.PHONY : src/IOInterface.cpp.o
+src/aarch64/Hal.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.o
+.PHONY : src/aarch64/Hal.cpp.o
 
-src/IOInterface.i: src/IOInterface.cpp.i
+src/aarch64/Hal.i: src/aarch64/Hal.cpp.i
 
-.PHONY : src/IOInterface.i
+.PHONY : src/aarch64/Hal.i
 
 # target to preprocess a source file
-src/IOInterface.cpp.i:
-	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/IOInterface.cpp.i
-.PHONY : src/IOInterface.cpp.i
+src/aarch64/Hal.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.i
+.PHONY : src/aarch64/Hal.cpp.i
 
-src/IOInterface.s: src/IOInterface.cpp.s
+src/aarch64/Hal.s: src/aarch64/Hal.cpp.s
 
-.PHONY : src/IOInterface.s
+.PHONY : src/aarch64/Hal.s
 
 # target to generate assembly for a file
-src/IOInterface.cpp.s:
-	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/IOInterface.cpp.s
-.PHONY : src/IOInterface.cpp.s
+src/aarch64/Hal.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/Hal.cpp.s
+.PHONY : src/aarch64/Hal.cpp.s
+
+src/aarch64/IOInterface.o: src/aarch64/IOInterface.cpp.o
+
+.PHONY : src/aarch64/IOInterface.o
+
+# target to build an object file
+src/aarch64/IOInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.o
+.PHONY : src/aarch64/IOInterface.cpp.o
+
+src/aarch64/IOInterface.i: src/aarch64/IOInterface.cpp.i
+
+.PHONY : src/aarch64/IOInterface.i
+
+# target to preprocess a source file
+src/aarch64/IOInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.i
+.PHONY : src/aarch64/IOInterface.cpp.i
+
+src/aarch64/IOInterface.s: src/aarch64/IOInterface.cpp.s
+
+.PHONY : src/aarch64/IOInterface.s
+
+# target to generate assembly for a file
+src/aarch64/IOInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/IOInterface.cpp.s
+.PHONY : src/aarch64/IOInterface.cpp.s
+
+src/aarch64/LCDI2C.o: src/aarch64/LCDI2C.cpp.o
+
+.PHONY : src/aarch64/LCDI2C.o
+
+# target to build an object file
+src/aarch64/LCDI2C.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.o
+.PHONY : src/aarch64/LCDI2C.cpp.o
+
+src/aarch64/LCDI2C.i: src/aarch64/LCDI2C.cpp.i
+
+.PHONY : src/aarch64/LCDI2C.i
+
+# target to preprocess a source file
+src/aarch64/LCDI2C.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.i
+.PHONY : src/aarch64/LCDI2C.cpp.i
+
+src/aarch64/LCDI2C.s: src/aarch64/LCDI2C.cpp.s
+
+.PHONY : src/aarch64/LCDI2C.s
+
+# target to generate assembly for a file
+src/aarch64/LCDI2C.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/LCDI2C.cpp.s
+.PHONY : src/aarch64/LCDI2C.cpp.s
+
+src/aarch64/OpenNIHelper.o: src/aarch64/OpenNIHelper.cpp.o
+
+.PHONY : src/aarch64/OpenNIHelper.o
+
+# target to build an object file
+src/aarch64/OpenNIHelper.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.o
+.PHONY : src/aarch64/OpenNIHelper.cpp.o
+
+src/aarch64/OpenNIHelper.i: src/aarch64/OpenNIHelper.cpp.i
+
+.PHONY : src/aarch64/OpenNIHelper.i
+
+# target to preprocess a source file
+src/aarch64/OpenNIHelper.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.i
+.PHONY : src/aarch64/OpenNIHelper.cpp.i
+
+src/aarch64/OpenNIHelper.s: src/aarch64/OpenNIHelper.cpp.s
+
+.PHONY : src/aarch64/OpenNIHelper.s
+
+# target to generate assembly for a file
+src/aarch64/OpenNIHelper.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/OpenNIHelper.cpp.s
+.PHONY : src/aarch64/OpenNIHelper.cpp.s
+
+src/aarch64/api_i2c_pwm.o: src/aarch64/api_i2c_pwm.cpp.o
+
+.PHONY : src/aarch64/api_i2c_pwm.o
+
+# target to build an object file
+src/aarch64/api_i2c_pwm.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.o
+.PHONY : src/aarch64/api_i2c_pwm.cpp.o
+
+src/aarch64/api_i2c_pwm.i: src/aarch64/api_i2c_pwm.cpp.i
+
+.PHONY : src/aarch64/api_i2c_pwm.i
+
+# target to preprocess a source file
+src/aarch64/api_i2c_pwm.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.i
+.PHONY : src/aarch64/api_i2c_pwm.cpp.i
+
+src/aarch64/api_i2c_pwm.s: src/aarch64/api_i2c_pwm.cpp.s
+
+.PHONY : src/aarch64/api_i2c_pwm.s
+
+# target to generate assembly for a file
+src/aarch64/api_i2c_pwm.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/api_i2c_pwm.cpp.s
+.PHONY : src/aarch64/api_i2c_pwm.cpp.s
+
+src/aarch64/pca9685.o: src/aarch64/pca9685.cpp.o
+
+.PHONY : src/aarch64/pca9685.o
+
+# target to build an object file
+src/aarch64/pca9685.cpp.o:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.o
+.PHONY : src/aarch64/pca9685.cpp.o
+
+src/aarch64/pca9685.i: src/aarch64/pca9685.cpp.i
+
+.PHONY : src/aarch64/pca9685.i
+
+# target to preprocess a source file
+src/aarch64/pca9685.cpp.i:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.i
+.PHONY : src/aarch64/pca9685.cpp.i
+
+src/aarch64/pca9685.s: src/aarch64/pca9685.cpp.s
+
+.PHONY : src/aarch64/pca9685.s
+
+# target to generate assembly for a file
+src/aarch64/pca9685.cpp.s:
+	$(MAKE) -f CMakeFiles/cds2019.dir/build.make CMakeFiles/cds2019.dir/src/aarch64/pca9685.cpp.s
+.PHONY : src/aarch64/pca9685.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +321,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cds2019"
-	@echo "... src/IOInterface.o"
-	@echo "... src/IOInterface.i"
-	@echo "... src/IOInterface.s"
+	@echo "... src/aarch64/Hal.o"
+	@echo "... src/aarch64/Hal.i"
+	@echo "... src/aarch64/Hal.s"
+	@echo "... src/aarch64/IOInterface.o"
+	@echo "... src/aarch64/IOInterface.i"
+	@echo "... src/aarch64/IOInterface.s"
+	@echo "... src/aarch64/LCDI2C.o"
+	@echo "... src/aarch64/LCDI2C.i"
+	@echo "... src/aarch64/LCDI2C.s"
+	@echo "... src/aarch64/OpenNIHelper.o"
+	@echo "... src/aarch64/OpenNIHelper.i"
+	@echo "... src/aarch64/OpenNIHelper.s"
+	@echo "... src/aarch64/api_i2c_pwm.o"
+	@echo "... src/aarch64/api_i2c_pwm.i"
+	@echo "... src/aarch64/api_i2c_pwm.s"
+	@echo "... src/aarch64/pca9685.o"
+	@echo "... src/aarch64/pca9685.i"
+	@echo "... src/aarch64/pca9685.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

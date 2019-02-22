@@ -1,4 +1,4 @@
-# Install script for directory: /home/tungteen/code/UETFastest
+# Install script for directory: /home/nvidia/UETFastest2019
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tungteen/code/UETFastest/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nvidia/UETFastest2019/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
