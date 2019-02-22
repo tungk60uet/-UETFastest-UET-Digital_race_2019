@@ -1,0 +1,3 @@
+/home/tungteen/code/UETFastest/build/CMakeFiles/edit_cache.dir
+/home/tungteen/code/UETFastest/build/CMakeFiles/rebuild_cache.dir
+/home/tungteen/code/UETFastest/build/CMakeFiles/cds2019.dir
