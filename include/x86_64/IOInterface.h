@@ -19,7 +19,7 @@ using namespace cv;
 class IOInterface
 {
 public:
-    IOInterface(string ip="192.168.237.1");
+    IOInterface(string ip="127.0.0.1");
     ~IOInterface();
     Mat getBGR();
     Mat getDepth();
