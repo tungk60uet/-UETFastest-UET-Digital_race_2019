@@ -1,3 +1,0 @@
-/home/nvidia/UETFastest2019/build/CMakeFiles/edit_cache.dir
-/home/nvidia/UETFastest2019/build/CMakeFiles/rebuild_cache.dir
-/home/nvidia/UETFastest2019/build/CMakeFiles/cds2019.dir
